@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+    .img-shadow{
+        filter: drop-shadow(40px 80px 25px rgba(238, 37, 2, .25));
+    }
+}
+.input-style{
+    @apply px-4 py-2 border-[2px] border-gray-500 rounded-md;
+}
